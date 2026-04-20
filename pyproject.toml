@@ -31,7 +31,7 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
 ]
 # TODO: add keywords
-keywords = []
+keywords = ["learning"]
 # TODO: add dependencies
 dependencies = []
 
@@ -41,7 +41,7 @@ Homepage = "https://github.com/fatipardo/pyospackage_fpardo2026"
 "Bug Tracker" = "https://github.com/fatipardo/pyospackage_fpardo2026/issues"
 Documentation = "https://github.com/fatipardo/pyospackage_fpardo2026/blob/main/README.md"
 # Note: update this url when you have published your package to pypi. (or delete it)
-Download = "https://pypi.org/project/pyospackage_fpardo2026/#files"
+
 
 [dependency-groups]
 dev = [
