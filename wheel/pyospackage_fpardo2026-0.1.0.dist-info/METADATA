@@ -1,0 +1,53 @@
+Metadata-Version: 2.4
+Name: pyospackage_fpardo2026
+Version: 0.1.0
+Summary: learning to make a python package
+Project-URL: Homepage, https://github.com/fatipardo/pyospackage_fpardo2026
+Project-URL: Source Code, https://github.com/fatipardo/pyospackage_fpardo2026
+Project-URL: Bug Tracker, https://github.com/fatipardo/pyospackage_fpardo2026/issues
+Project-URL: Documentation, https://github.com/fatipardo/pyospackage_fpardo2026/blob/main/README.md
+Author-email: Fatima Pardo-Avila <fpardo@stanford.edu>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: learning
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Welcome to pyosPackage_fpardo2026
+
+|        |        |
+|--------|--------|
+| Package | [![Latest PyPI Version](https://img.shields.io/pypi/v/pyospackage_fpardo2026.svg)](https://pypi.org/project/pyospackage_fpardo2026/) [![Supported Python Versions](https://img.shields.io/pypi/pyversions/pyospackage_fpardo2026.svg)](https://pypi.org/project/pyospackage_fpardo2026/)  |
+| Meta   | [![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md) |
+
+*TODO: the above badges that indicate python version and package version will only work if your package is on PyPI.
+If you don't plan to publish to PyPI, you can remove them.*
+
+pyosPackage_fpardo2026 is a project that (describe what it does here).
+
+## Get started
+
+You can install this package into your preferred Python environment using pip:
+
+```bash
+$ pip install pyospackage_fpardo2026
+```
+
+TODO: Add a brief example of how to use the package to this section
+
+To use pyospackage_fpardo2026 in your code:
+
+```python
+>>> import pyospackage_fpardo2026
+>>> pyospackage_fpardo2026.hello_world()
+```
+
+## Copyright
+
+- Copyright © 2026 Fatima Pardo-Avila.
+- Free software distributed under the [MIT License](./LICENSE).
