@@ -39,5 +39,4 @@ def hello_world(language):
     else:
         hello="I do not understand, try another language"
     
-    print(hello)
     return hello

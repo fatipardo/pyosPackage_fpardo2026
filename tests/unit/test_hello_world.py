@@ -10,5 +10,5 @@ def test_hello_world():
 
     """
     out = hello_world("spanish")
-    expected_out = "hola mundo"
+    expected_out = 'hola mundo'
     assert  out == expected_out, f"Expected {expected_out} but got {out}"
