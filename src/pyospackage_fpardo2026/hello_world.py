@@ -6,37 +6,43 @@ so it contains a version of hello world
 
 def hello_world(language):
     """
-    Prints "hello world" in the language specified.
-    Options are spanish, english, portuguese.
+    Return "hello world" in the specified language.
 
     Parameters
     ----------
-    language: string
-        spanish, english, portuguese
-    
+    language : str
+        One of: 'spanish', 'english', 'portuguese'
 
     Returns
     -------
     str
-        string "hello wold" in language specified by user
+        Translated "hello world"
 
-    Examples
-    --------
-    >>> hello_world(english)
-    hello world
-    >>> add_numbers(spanish)
-    hola mundo
+    Raises
+    ------
+    TypeError
+        If language is not a string
+    ValueError
+        If language is not supported
     """
 
-    hello=""
-    
-    if language == "spanish":
-        hello="hola mundo"
-    elif language== "english":
-        hello="hello world"
-    elif language == "portuguese":
-        hello="oi mundo"
-    else:
-        hello="I do not understand, try another language"
-    
-    return hello
+    # --- Type check ---
+    if not isinstance(language, str):
+        raise TypeError(f"language must be a string, got {type(language).__name__}")
+
+    # --- Normalize input ---
+    language = language.strip().lower()
+
+    # --- Mapping (safer than chained if/elif) ---
+    translations = {
+        "spanish": "hola mundo",
+        "english": "hello world",
+        "portuguese": "oi mundo",
+    }
+
+    # --- Validate value ---
+    if language not in translations:
+        valid = ", ".join(translations.keys())
+        raise ValueError(f"Unsupported language '{language}'. Choose from: {valid}")
+
+    return translations[language]
